@@ -12,9 +12,29 @@ This project uses a Convolutional Neural Network (CNN) built with TensorFlow and
 **📊 Evaluation Metrics:** Precision, Recall, F1-Score, Confusion Matrix  
 **📁 Dataset Size:** 87,900+ images (train, validation, and test)
 
-📌 **Kaggle Notebook/Project:** [View on Kaggle](https://www.kaggle.com/your-kaggle-link-here)
+📌 **Kaggle Notebook/Project:** [View on Kaggle](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
 
----
+🗂️ Project Structure
+dataset/
+└── plant_dataset/
+    ├── main.py
+    ├── Train_plant_disease.ipynb
+    ├── Test_Plant_Disease.ipynb
+    ├── trained_model.keras
+    ├── training_hist.json
+    ├── train/
+    ├── valid/
+    ├── test/
+    └── README.md
+
+ 🏋️‍♂️ Training the Model
+ 
+Run the Jupyter notebook:
+
+Train_plant_disease.ipynb
+
+This will train the CNN model and save the weights in .keras format.
+
 
 ## ✨ Features
 
